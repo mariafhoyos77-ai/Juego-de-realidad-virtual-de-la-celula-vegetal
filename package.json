@@ -1,12 +1,14 @@
 {
-  "name": "react-vite-tailwind",
+  "name": "celula-vegetal-vr",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Juego de realidad virtual de la celula vegetal: expedicion 3D interactiva con checkpoints, minijuegos y certificado.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@types/canvas-confetti": "^1.9.0",
